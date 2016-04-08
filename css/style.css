@@ -1,0 +1,35 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: block;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.item__div,
+.item__div_2,
+.item__div_3,
+.item__div_4,
+.item__div_5,
+.item__div_6,
+.item__div_7 {
+    margin-bottom: 30px;
+}
+
+.item__div > div,
+.item__div_2 > div,
+.item__div_3 > div,
+.item__div_4 > div,
+.item__div_5 > div,
+.item__div_6 > div,
+.item__div_7 > div {
+    border: 1px solid;
+    margin: 0 15px;
+    padding: 15px;
+}
