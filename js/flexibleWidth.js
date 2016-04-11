@@ -35,12 +35,8 @@
                     }
                 }
                 elements[i].style.width = 100 / cols + '%';
-<<<<<<< HEAD
                 if (cols && cols != 1)
                     elements[i].style.float = 'left';
-=======
-                elements[i].style.float = 'left';
->>>>>>> f63147d12626adcf7fe018ec45bb52459c076538
             }
             for (var i = 1; i < cols; i++) {
                 var lastClear = container.lastChild;
