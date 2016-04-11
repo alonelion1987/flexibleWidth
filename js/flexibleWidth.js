@@ -2,11 +2,11 @@
 (function () {
     var version = 1.0;
     /*
-     * основная функция
-     * возвращает number
-     * @param {string} c         Класс элементов
-     * @param {number} cols      Кол-во генерируемых колонок
-     * @return {number}          кол-во обработанных элементов elementsLength
+     * main function
+     * return number
+     * @param {string} c         Class elements
+     * @param {number} cols      Number generated columns
+     * @return {number}          Number processed items elementsLength
      * */
     function flexibleWidth(c, cols) {
         var elements = document.getElementsByClassName(c),
@@ -18,11 +18,11 @@
             j++;
         }
         if (elementsLength !== j) {
-            throw new Error('Количество дочерних элементов .'
+            throw new Error('Number of child elements .'
             + elements[0].className
-            + ' в контейнере '
+            + ' in container '
             + container
-            + ' не совпадает с общим количеством данных элементов на странице');
+            + ' It does not coincide with the total number of data items per page');
         } else {
             container.style.overflow = 'hidden';
             for (var i = 0; i < j; i++) {
@@ -47,8 +47,8 @@
     }
 
     /*
-     * экспорт в глобальный объект
-     * вызов:
+     * exports to the global object
+     * call:
      * _$_(class, column)
      *  *************************
      * */
