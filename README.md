@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# flexibleWidth
-=======
 # flexibleWidth.js
 **Версия 1.0**
 ---
@@ -39,4 +36,3 @@ FAQ
 
 ![Вызов функции](http://jblog-project.ru/wp-content/uploads/2016/04/flexibleWidthCode.png)
 [Посмотреть на jsfiddle.net] (https://jsfiddle.net/alonelion1987/toy71Lax/)
->>>>>>> f63147d12626adcf7fe018ec45bb52459c076538
