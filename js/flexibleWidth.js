@@ -2,7 +2,7 @@
 (function () {
     var version = 1.0;
     /*
-     * main function
+     * main function flexibleWidth( )
      * return number
      * @param {string} c         Class elements
      * @param {number} cols      Number generated columns
