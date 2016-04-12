@@ -45,7 +45,6 @@
             return elementsLength;
         }
     }
-
     /*
      * exports to the global object
      * call:
