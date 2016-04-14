@@ -63,6 +63,9 @@
                     }
                 }
             }
+            if (container.lastChild.className === 'flexiblewidth__clear' + c) {
+                clearMe('flexiblewidth__clear' + c, container);
+            }
             if (cols && cols != 1) {
                 clearfix = container.insertBefore(document.createElement("div"), elements.lastChild || null);
                 cl(clearfix, c);
@@ -99,6 +102,14 @@
     function rm(container) {
         var lastClear = container.lastChild;
         container.removeChild(lastClear);
+    }
+
+    /*
+     * remove all last clear
+     * */
+    function clearMe(cl, el) {
+        while (el.lastChild.className === cl)
+            rm(el);
     }
 
     /*
