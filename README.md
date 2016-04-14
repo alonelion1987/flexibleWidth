@@ -41,4 +41,4 @@ FAQ
 --- 
 
 ![Вызов функции](http://jblog-project.ru/wp-content/uploads/2016/04/flexibleWidthCode.png)
-[Посмотреть на jsfiddle.net] (https://jsfiddle.net/alonelion1987/toy71Lax/6/)
+[Посмотреть на jsfiddle.net] (https://jsfiddle.net/alonelion1987/toy71Lax/7/)
