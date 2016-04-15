@@ -47,7 +47,7 @@
                 }
                 calc(elements, i, cols);
             }
-            if (cols && cols != 1) {
+            if (cols && cols != 1 && cols >= 4) {
                 if (!clears.length) {
                     for (var i = 1; i < cols - 1; i++) rm(container);
                 } else {
@@ -63,9 +63,8 @@
                     }
                 }
             }
-            if (container.lastChild.className === 'flexiblewidth__clear' + c) {
+            if (container.lastChild.className === 'flexiblewidth__clear' + c)
                 clearMe('flexiblewidth__clear' + c, container);
-            }
             if (cols && cols != 1) {
                 clearfix = container.insertBefore(document.createElement("div"), elements.lastChild || null);
                 cl(clearfix, c);
