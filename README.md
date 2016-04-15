@@ -1,7 +1,7 @@
 # flexibleWidth.js
 **Версия 1.0**
 ---
-![гибкая ширина блоков](http://jblog-project.ru/wp-content/uploads/2016/04/flexibleWidth.png)
+![гибкая ширина блоков](http://jblog-project.ru/wp-content/uploads/2016/04/flexibleWidth-2.png)
 Скрипт предназначен для равномерного распределения блоков по ширине родительского контейнера. В качестве контейнера может выступать любой блок как определенной ширины, так и неопределенной, вплоть до `<body>`.
 
 Главное условие: все элементы с идентифицирующим классом должны быть внутри родительского контейнера
@@ -41,4 +41,4 @@ FAQ
 --- 
 
 ![Вызов функции](http://jblog-project.ru/wp-content/uploads/2016/04/flexibleWidthCode.png)
-[Посмотреть на jsfiddle.net] (https://jsfiddle.net/alonelion1987/toy71Lax/6/)
+[Посмотреть на jsfiddle.net] (https://jsfiddle.net/alonelion1987/toy71Lax/7/)
